@@ -11,6 +11,8 @@ use sort 'stable';
 use Scalar::Util qw(blessed reftype);
 use Tie::RefHash;
 
+our $VERSION = "0.01";
+
 our @EXPORT_OK = qw(inc_add_floating inc_float_entry inc_unfloat_entry untie_inc);
 
 tie our %floating, 'Tie::RefHash';
