@@ -4,7 +4,7 @@ use strict;
 
 use ExtUtils::MakeMaker;
 
-use 5.008; # sort pragma
+require 5.008; # sort pragma
 
 WriteMakefile(
 	NAME         => 'Devel::INC::Sorted',
